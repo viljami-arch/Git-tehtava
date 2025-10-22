@@ -15,7 +15,7 @@ public class Peli      {
             System.out.print("Paina ENTER pelataksesi...");
             in.nextLine(); 
 
-            saldo -= 1; // Vähennetään pelin hinta
+            saldo -= 1; 
 
             int randomNumber = r.nextInt(10) + 1; // Arpoo luvun 1–10
             System.out.println("Arvottu numero: " + randomNumber);
