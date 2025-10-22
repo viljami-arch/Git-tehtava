@@ -17,7 +17,7 @@ public class Peli      {
 
             saldo -= 1; 
 
-            int randomNumber = r.nextInt(10) + 1; // Arpoo luvun 1–10
+            int randomNumber = r.nextInt(11) + 1; // Arpoo luvun 1–10
             System.out.println("Arvottu numero: " + randomNumber);
 
             if (randomNumber == 7) {
