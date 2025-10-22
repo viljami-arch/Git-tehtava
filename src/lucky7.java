@@ -29,6 +29,7 @@ public class Peli      {
         }
 
         System.out.println("\nRahat loppuivat. Peli päättyy.");
+        // peli päättyy
         in.close();
     }
 }
